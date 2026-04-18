@@ -40,7 +40,7 @@ A dynamic, interactive car rental website built with Node.js, Express, and jQuer
 
 ## Demo
 
-**Live Demo**: [Insert your deployed URL here]
+**Live Demo**: (http://car-rental-system-env.eba-jsu2v9mp.us-east-1.elasticbeanstalk.com/) - expired now
 
 ### Screenshots
 
