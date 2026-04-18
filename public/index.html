@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="/"><img src="/images/logo.png" alt="Car Rental Logo" class="logo"></a>
+        </div>
+        <div class="site-title">
+            <h1 class="main-title">RentCar</h1>
+            <h2 class="subtitle">COMPANY</h2>
+        </div>
+        <div class="reservation-icon">
+            <a href="/reservation"><img src="/images/reservation-img.png" alt="Reservation" class="reservation-img"></a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search by type, brand, model...">
+                <div id="search-suggestions" class="suggestions-container"></div>
+            </div>
+            
+            <div class="search-filters">
+                <div class="filter-group">
+                    <label for="car-type">Car Type:</label>
+                    <select id="car-type" name="car-type">
+                        <option value="">All Types</option>
+                        <!-- Car types will be populated dynamically -->
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="car-brand">Car Brand:</label>
+                    <select id="car-brand" name="car-brand">
+                        <option value="">All Brands</option>
+                        <!-- Car brands will be populated dynamically -->
+                    </select>
+                </div>
+                
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+        
+        <div class="cars-grid" id="cars-container">
+            <!-- Cars will be displayed here dynamically -->
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Car Rental System</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

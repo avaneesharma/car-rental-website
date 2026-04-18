@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Reservation | Car Rental System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="/"><img src="/images/logo.png" alt="Car Rental Logo" class="logo"></a>
+        </div>
+        <div class="site-title">
+            <h1 class="main-title">RentCar</h1>
+            <h2 class="subtitle">COMPANY</h2>
+        </div>
+    </header>
+    
+    <main>
+        <div class="reservation-container">
+            <div id="car-details">
+                <!-- Car details will be loaded here dynamically -->
+            </div>
+            
+            <div id="reservation-form-container" style="display: none;">
+                <h2>Reservation Form</h2>
+                <form id="reservation-form">
+                    <div class="form-group">
+                        <label for="customer-name">Full Name:</label>
+                        <input type="text" id="customer-name" name="customer-name" required>
+                        <span class="validation-message" id="name-validation"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="tel" id="phone-number" name="phone-number" required>
+                        <span class="validation-message" id="phone-validation"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="validation-message" id="email-validation"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="license-number">Driver's License Number:</label>
+                        <input type="text" id="license-number" name="license-number" required>
+                        <span class="validation-message" id="license-validation"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="start-date">Start Date:</label>
+                        <input type="date" id="start-date" name="start-date" required>
+                        <span class="validation-message" id="date-validation"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="rental-period">Rental Period (days):</label>
+                        <input type="number" id="rental-period" name="rental-period" min="1" required>
+                        <span class="validation-message" id="period-validation"></span>
+                    </div>
+                    
+                    <div class="total-price" id="total-price">
+                        <p>Total Price: <span id="price-value">$0</span></p>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <button type="button" id="submit-btn" disabled>Submit</button>
+                        <button type="button" id="cancel-btn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div id="unavailable-message" style="display: none;">
+                <p>Sorry, this car is no longer available for rental.</p>
+                <p>Please choose another car from our collection.</p>
+                <a href="/" class="button">View Cars</a>
+            </div>
+            
+            <div id="no-car-message" style="display: none;">
+                <p>Please choose a car from our collection before making a reservation.</p>
+                <a href="/" class="button">View Cars</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Car Rental System</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/reservation.js"></script>
+</body>
+</html>

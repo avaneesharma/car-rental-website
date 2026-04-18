@@ -1,0 +1,80 @@
+{
+  "orders": [
+    {
+      "customer": {
+        "name": "Avaneesh",
+        "phoneNumber": "0403783227",
+        "email": "avaneesha.sharmabidara@student.uts.edu.au",
+        "driversLicenseNumber": "dg0911256"
+      },
+      "car": {
+        "vin": "1HGBH41JXMN109186"
+      },
+      "rental": {
+        "startDate": "2025-05-23",
+        "rentalPeriod": 7,
+        "totalPrice": 350,
+        "orderDate": "2025-05-23"
+      },
+      "id": 1747982773328,
+      "status": "confirmed"
+    },
+    {
+      "id": 1747989130818,
+      "status": "pending",
+      "customer": {
+        "name": "daxter",
+        "phoneNumber": "0403885697",
+        "email": "daxter@gmail.com",
+        "driversLicenseNumber": "dgff4567789g"
+      },
+      "car": {
+        "vin": "WVWZZZ1KZLW908762"
+      },
+      "rental": {
+        "startDate": "2025-05-23",
+        "rentalPeriod": 10,
+        "totalPrice": 650,
+        "orderDate": "2025-05-23"
+      }
+    },
+    {
+      "id": 1747989239676,
+      "status": "pending",
+      "customer": {
+        "name": "avaneesh",
+        "phoneNumber": "0403859961",
+        "email": "avaneesha.sharmabidara@student.uts.edu.au",
+        "driversLicenseNumber": "fdee56778"
+      },
+      "car": {
+        "vin": "1FA6P8TH6J5134567"
+      },
+      "rental": {
+        "startDate": "2025-05-23",
+        "rentalPeriod": 7,
+        "totalPrice": 840,
+        "orderDate": "2025-05-23"
+      }
+    },
+    {
+      "id": 1747993259089,
+      "status": "confirmed",
+      "customer": {
+        "name": "ava",
+        "phoneNumber": "0403785224",
+        "email": "avaneesha.sharmabidara@student.uts.edu.au",
+        "driversLicenseNumber": "hjyyuio889"
+      },
+      "car": {
+        "vin": "1FA6P8TH6J5134567"
+      },
+      "rental": {
+        "startDate": "2025-05-23",
+        "rentalPeriod": 7,
+        "totalPrice": 840,
+        "orderDate": "2025-05-23"
+      }
+    }
+  ]
+}
