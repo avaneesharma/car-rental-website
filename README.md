@@ -331,18 +331,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 **Your Name**
-- GitHub: [@avaneeshsharma](https://github.com/avaneeshsharma)
+- GitHub: [@avaneesharma](https://github.com/avaneesharma)
 - Email: avaneeshsharmab@gmail.com
 
 ## Acknowledgments
 
-- Assignment provided by [University/Course Name]
+- Assignment provided by [UTS/Internet Programming]
 - jQuery library for DOM manipulation
 - Express.js for server framework
 
 ## Support
 
-For support, email your.email@example.com or create an issue in the GitHub repository.
+For support, email avaneeshsharmab@gmail.com or create an issue in the GitHub repository.
 
 ---
 
