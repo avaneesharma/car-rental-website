@@ -47,7 +47,7 @@ A dynamic, interactive car rental website built with Node.js, Express, and jQuer
 ![Homepage](screenshots/homepage.png)
 *Homepage with car grid layout and search/filter options*
 
-![Reservation](images/reservation-img.png)
+![Reservation](public/images/reservation-img.png)
 *Reservation page with form validation*
 
 ## Technologies Used
