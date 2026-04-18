@@ -42,14 +42,6 @@ A dynamic, interactive car rental website built with Node.js, Express, and jQuer
 
 **Live Demo**: (http://car-rental-system-env.eba-jsu2v9mp.us-east-1.elasticbeanstalk.com/) - expired now
 
-### Screenshots
-
-![Homepage](screenshots/homepage.png)
-*Homepage with car grid layout and search/filter options*
-
-![Reservation](public/images/reservation-img.png)
-*Reservation page with form validation*
-
 ## Technologies Used
 
 ### Backend
